@@ -1,7 +1,6 @@
 package org.eln2
 
 import net.minecraft.block.Block
-import org.eln2.blocks.FlubberBlock
 import org.eln2.blocks.OreBlock
 import org.eln2.node.NodeBlock
 import org.eln2.utils.OreData
@@ -45,7 +44,7 @@ enum class ModBlocks(val block: Block) {
     ORE_MILLERITE(OreBlock(OreData(1.0f, "millerite",1.0F, ModItems.ORE_CHUNKS_MILLERITE.items.defaultInstance))),
     ORE_NATIVE_COPPER(OreBlock(OreData(1.0f, "native_copper",1.0F, ModItems.ORE_CHUNKS_NATIVE_COPPER.items.defaultInstance))),
     ORE_NATIVE_GOLD(OreBlock(OreData(1.0f, "native_gold",1.0F, ModItems.ORE_CHUNKS_NATIVE_GOLD.items.defaultInstance))),
-    ORE_NATIVE_PLATINUM(OreBlock(OreData(1.0f, "native_platinum",1.0F, ModItems.ORE_CHUNKS_NATIVE_PLATINUM.items.defaultInstance))),
+    ORE_NATIVE_PLATINUM(OreBlock(OreData(1.0f, "native_platnium",1.0F, ModItems.ORE_CHUNKS_NATIVE_PLATINUM.items.defaultInstance))),
     ORE_NATIVE_SULFUR(OreBlock(OreData(1.0f, "native_sulfur",1.0F, ModItems.ORE_CHUNKS_NATIVE_SULFUR.items.defaultInstance))),
     ORE_PENTLANDITE(OreBlock(OreData(1.0f, "pentlandite",1.0F, ModItems.ORE_CHUNKS_PENTLANDITE.items.defaultInstance))),
     ORE_PETALITE(OreBlock(OreData(1.0f, "petalite",1.0F, ModItems.ORE_CHUNKS_PETALITE.items.defaultInstance))),
