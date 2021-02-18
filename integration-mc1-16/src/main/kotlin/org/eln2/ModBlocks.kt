@@ -10,7 +10,6 @@ import org.eln2.utils.OreData
  * Blocks added here are automatically registered.
  */
 enum class ModBlocks(val block: Block) {
-    FLUBBER(FlubberBlock()),
     ORE_ACANTHITE(OreBlock(OreData(1.0f, "acanthite",1.0F, ModItems.ORE_CHUNKS_ACANTHITE.items.defaultInstance))),
     ORE_ANTHRACITE_COAL(OreBlock(OreData(1.0f, "anthracite_coal",1.0F, ModItems.ORE_CHUNKS_ANTHRACITE_COAL.items.defaultInstance))),
     ORE_AZURITE(OreBlock(OreData(1.0f, "azurite",1.0F, ModItems.ORE_CHUNKS_AZURITE.items.defaultInstance))),
