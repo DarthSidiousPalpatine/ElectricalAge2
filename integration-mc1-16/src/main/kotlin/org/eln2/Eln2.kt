@@ -27,8 +27,8 @@ object Eln2 {
     fun initialize() {
         // Register blocks and items
         // TODO:  Break out into creative tabs being registered (ie, CableBlocks, CableItems, etc.)
-        ModItems.values().forEach { registry.items.register(it.items, it.name.toLowerCase()) }
-        ModBlocks.values().forEach { registry.blocks.register(it.block, it.name.toLowerCase()) }
+        ChunkItems.values().forEach { registry.items.register(it.items, it.name.toLowerCase()) }
+        OreBlocks.values().forEach { registry.blocks.register(it.block, it.name.toLowerCase()) }
         registry.initialize(FMLJavaModLoadingContext.get().modEventBus)
     }
 
